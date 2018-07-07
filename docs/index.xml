@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Group (DSG)</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Data Science Group (DSG)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <lastBuildDate>Tue, 26 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interview with Dr Vukosi Marivate</title>
+      <link>http://example.org/2018/06/26/post1/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/2018/06/26/post1/</guid>
+      <description>We had the opportunity to catch up with data enthusiast Dr Vukosi Marivate in Cape Town whilst he was presenting at the Computational Social Science Workshop at UCT. We were able to find out more about his role that bridges data, policy, Africa and the people, check it out below, and remember, always be learning (ABL).
+What do you think about having more scientists in policy?
+For many reasons it’s good.</description>
+    </item>
+    
+    <item>
+      <title>Another example of a blog post</title>
+      <link>http://example.org/2018/06/10/post2/</link>
+      <pubDate>Sun, 10 Jun 2018 16:33:27 +0300</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/2018/06/10/post2/</guid>
+      <description>This is an example of a blog post to be made by a DSG member</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/aims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/aims/</guid>
+      <description>.parallax { /* The image used */ background-image: url(&amp;laquo;img/ws_bbII.jpg&amp;raquo;);
+/* Set a specific height */ height: 400px; /* Create the parallax scrolling effect */ background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;  }   
+Алън живее и работи в Кения в продължение на осем години, първо като доброволец учител по компютърни науки в селско училище, а по-късно като Linux системен администратор в институт за селскостопански животни в Найроби.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/about/</guid>
+      <description>Dr Bubacarr Bah Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content.Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content.Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content. Go somewhere --   Rakgwahla Jessica Phalafala Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/contact/</guid>
+      <description>Алън живее и работи в Кения в продължение на осем години, първо като доброволец учител по компютърни науки в селско училище, а по-късно като Linux системен администратор в институт за селскостопански животни в Найроби. По време на престоя си в Кения той пътува из Източна Африка и пише блог за преживяванията си. Негобата страст е софтуерът с отворен код, информационната сигурност, както и свободата на информация — естествено, той пише блог и за това.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/events/</guid>
+      <description>Алън живее и работи в Кения в продължение на осем години, първо като доброволец учител по компютърни науки в селско училище, а по-късно като Linux системен администратор в институт за селскостопански животни в Найроби. По време на престоя си в Кения той пътува из Източна Африка и пише блог за преживяванията си. Негобата страст е софтуерът с отворен код, информационната сигурност, както и свободата на информация — естествено, той пише блог и за това.</description>
+    </item>
+    
+  </channel>
+</rss>

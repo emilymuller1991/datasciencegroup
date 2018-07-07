@@ -1,7 +1,9 @@
 languageCode = "en-us"
 title = "Data Science Group (DSG)"
+publishDir = "docs"
 baseurl = "http://example.org/"
 theme = "hugo-bootstrap-premium"
+
 
 # SES friendly url:s
 canonifyurls = true

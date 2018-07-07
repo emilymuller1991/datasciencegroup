@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Group (DSG)</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content on Data Science Group (DSG)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <lastBuildDate>Tue, 26 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interview with Dr Vukosi Marivate</title>
+      <link>http://example.org/2018/06/26/post1/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/2018/06/26/post1/</guid>
+      <description>We had the opportunity to catch up with data enthusiast Dr Vukosi Marivate in Cape Town whilst he was presenting at the Computational Social Science Workshop at UCT. We were able to find out more about his role that bridges data, policy, Africa and the people, check it out below, and remember, always be learning (ABL).
+What do you think about having more scientists in policy?
+For many reasons it’s good.</description>
+    </item>
+    
+    <item>
+      <title>Another example of a blog post</title>
+      <link>http://example.org/2018/06/10/post2/</link>
+      <pubDate>Sun, 10 Jun 2018 16:33:27 +0300</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://example.org/2018/06/10/post2/</guid>
+      <description>This is an example of a blog post to be made by a DSG member</description>
+    </item>
+    
+  </channel>
+</rss>
