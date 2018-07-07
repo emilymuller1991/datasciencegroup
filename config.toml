@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Data Science Group (DSG)"
 publishDir = "docs"
-baseurl = "http://example.org/"
+baseurl = "https://emilymuller1991.github.io/datasciencegroup"
 theme = "hugo-bootstrap-premium"
 
 
