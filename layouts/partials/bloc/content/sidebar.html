@@ -1,0 +1,48 @@
+<div>
+  {{ if and .IsPage (eq .Params.toc true) }}
+    <div class="section">
+      <header><div class="title">TableOfContents</div></header>
+      <div class="list-default">{{ .TableOfContents }}</div>
+    </div>
+    {{ end }}
+
+    <div class="section">
+      <header><div class="title"><b>Welcome</b></div></header>
+      <div class="content">
+To our Data Science Research Group at AIMS, South Africa. You're welcome to have a look around, meet our team, read our blogs, connect with us and with AIMS.
+      </div>
+    </div>
+
+
+
+ <div class="section">
+      <header><div class="title"><b>{{ i18n "latestposts" }}</b></div></header>
+      <div class="content">
+        <ul>
+        {{ range first 10 (where (where .Site.Pages "Type" "post") "IsPage" true) }}
+          <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+    </div> 
+
+<a class="twitter-timeline" href="https://twitter.com/therealmatrix2?ref_src=twsrc%5Etfw">Tweets by therealmatrix2</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+    {{ range $key, $value := .Site.Taxonomies }}
+      {{ $len := len $value }}
+      {{ if (not ( eq $len 0 ) ) }}
+      <div class="section taxonomies">
+        <header><div class="title"><b>{{ $key | singularize }}</b></div></header>
+
+        <div class="content">
+          <ul>
+            {{ range first 10 $value.ByCount }}<li><a href="{{$.LanguagePrefix }}/{{ $key }}/{{ .Name | urlize }}">{{ .Name }}</a></li>{{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+
+</div>

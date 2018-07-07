@@ -1,0 +1,180 @@
+languageCode = "en-us"
+title = "Data Science Group (DSG)"
+baseurl = "http://example.org/"
+theme = "hugo-bootstrap-premium"
+
+# SES friendly url:s
+canonifyurls = true
+
+# Frontmatter format
+# "yaml", "toml", "json"
+metaDataFormat = "toml"
+
+# Pagination
+paginate = 5
+paginatePath = "page"
+
+# Enable Disqus integration
+disqusShortname = "shortname"
+
+
+[permalinks]
+post = "/:year/:month/:day/:filename/"
+code = "/:filename/"
+
+[taxonomies]
+tag = "tags"
+topic = "topics"
+
+[author]
+name = "yourname"
+email = "yourname@example.com"
+
+[params]
+  background = "/img/map.jpg"
+# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
+# default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
+# slate, spacelab, superhero, united, yeti.
+
+bootswatchtheme = "paper"
+
+# You can use markdown here.
+BrandImage = "/img/logo_both.png" #top header brand image.
+brand = "My awsome blog" # brand image alt text.
+topline = "few words about your site"
+#footline = "code with <i class='fa fa-heart'></i>"
+
+customJS = []
+customCSS = ["/css/style_custom.css"]
+
+# Text for the top menu link, which goes to the root URL for the site.
+# Default (if omitted) is "Home".
+home = "home"
+
+mailmunchid = "" # Mailmunch site id
+sumomeid = "" # Sumome id
+mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
+
+# Show a sidebar menu
+#showRightSidebar = true
+
+  [params.sidebar]
+    # Optional about block for sidebar (can be Markdown)
+    about = "Data Science Research Group at AIMS"
+
+    # How many posts to show on the sidebar (Default: 5)
+    #num_recent_posts = 2
+
+  [params.social]
+    # twitter handle for the site (ideally not a person, eg: nytimes, flickr, etc)
+    twitter = "picturingjordan"
+
+[[menu.sidebar]]
+  name = "Alan in Kenya"
+  url = "https://alaninkenya.org"
+
+[[menu.sidebar]]
+  name = "Mjanja Tech"
+  url = "https://mjanja.ch"
+
+[[menu.sidebar]]
+  name = "English Bulgaria"
+  url = "https://englishbulgaria.net"
+
+# Select a syntax highlight.
+# Check the static/css/highlight directory for options.
+highlight = "default"
+
+# Google Analytics.
+googleAnalytics = "Your Google Analytics tracking code"
+
+# Sidebar social links.
+github = "Myprofile" # Your Github profile ID
+bitbucket = "" # Your Bitbucket profile ID
+linkedin = "" # Your LinkedIn profile ID (from public URL)
+googleplus = "Myprofile" # Your Google+ profile ID
+facebook = "Myprofile" # Your Facebook profile ID
+twitter = "Myprofile" # Your Twitter profile ID
+youtube = ""  # Your Youtube channel ID
+flattr = ""  # populate with your flattr uid
+
+[blackfriday]
+angledQuotes = true
+fractions = false
+hrefTargetBlank = false
+latexDashes = true
+plainIdAnchors = true
+extensions = []
+extensionmask = []
+
+# Menus
+# If you want active menu items highlighted for internal pages don't add them here, they need to be added in each files front matter.
+# like this:
+#[menu]
+#     [menu.main]
+#        name = "Showcase"
+#        weight = 3
+#        identifier = "showcase"
+# i18n menus. A menu will be added for each language to the right in the top menu. This menu will switch to the selected language. Remember to add the corresponding language in pathnamereplace.js.
+#[[Languages.sv.menu.switchlang]]
+#  name = "English"
+#  identifier = ""
+#  weight = 4
+#  url = "en"
+
+
+#[Languages]
+#[Languages.en]
+#languageCode = "en"
+#weight = 1
+#copyright = "(c) 2018 Copyright"
+#title = "My blog" # Site title
+
+#[[Languages.en.menu.main]]
+#name = "Dashboard"
+#identifier = ""
+#weight = 3
+#url = "https://appernetic.io/app/"
+
+#[[Languages.en.menu.footer]] # add  links to the bottom right corner.
+#name = "Disclaimer"
+#pre = "<i>&middot;</i>"
+#identifier = "disclaimer"
+#weight = 1
+#url = "/disclaimer/"
+
+#[[Languages.en.menu.footer]]
+#name = "Terms"
+#identifier = "terms"
+#weight = 2
+#url = "/terms/"
+
+#[Languages.sv]
+#languageCode = "sv"
+#weight = 2
+#title = "Min blog" # Site title
+#copyright = "(c) 2016 Alla rättigheter"
+
+#[[Languages.sv.menu.main]]
+#name = "Bloggen"
+#pre = ""
+#weight = 2
+#identifier = "post"
+#url = "/sv/post/"
+
+#[[Languages.sv.menu.footer]] # add  links to the bottom right corner.
+#name = "Ansvarsfriskrivning"
+#pre = "<i>&middot;</i>"
+#identifier = "friskrivning"
+#weight = 1
+#url = "/sv/friskrivning/"
+
+#[[Languages.sv.menu.footer]]
+#name = "Vilkor"
+#identifier = "vilkor"
+#weight = 2
+#url = "/sv/vilkor/"
+
+#[Languages.sv.taxonomies]
+#tag = "Taggar"
+#topic = "Ämne"

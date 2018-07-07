@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Data Science Group, AIMS, SA.</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in About on Data Science Group, AIMS, SA.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Dec 2017 14:13:03 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://example.org/posts/objectives/</link>
+      <pubDate>Wed, 27 Dec 2017 14:13:03 +0200</pubDate>
+      
+      <guid>http://example.org/posts/objectives/</guid>
+      <description>&lt;p&gt;The key object is to empower female students at AIMS South Africa to achieve their full potential.
+Furthermore, AIMSWIS intends to train a generation of women scientists as mentors to increase the number of role models for girls in African communities. Finally, AIMSWIS wishes to create a space for women students in mathematical sciences.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Program</title>
+      <link>http://example.org/posts/program/</link>
+      <pubDate>Wed, 27 Dec 2017 14:13:11 +0200</pubDate>
+      
+      <guid>http://example.org/posts/program/</guid>
+      <description>&lt;p&gt;AIMSWIS provides a huge diversity of events and offers from which the students can benefit.
+Next to the In-House Women&amp;rsquo;s Mentorship program which includes panel discussions, public lectures and skill workshops among others, emphasis is also put on outreach.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
