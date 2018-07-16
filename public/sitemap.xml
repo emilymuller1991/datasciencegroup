@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>./about/</loc>
+    <loc>https://datasciencegroup.aims.ac.za/about/</loc>
   </url>
   
   <url>
-    <loc>./contact/</loc>
+    <loc>https://datasciencegroup.aims.ac.za/contact/</loc>
   </url>
   
   <url>
-    <loc>./events/</loc>
+    <loc>https://datasciencegroup.aims.ac.za/events/</loc>
   </url>
   
   <url>
-    <loc>./post/</loc>
+    <loc>https://datasciencegroup.aims.ac.za/post/</loc>
   </url>
   
   <url>
-    <loc>./</loc>
+    <loc>https://datasciencegroup.aims.ac.za/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./tags/</loc>
+    <loc>https://datasciencegroup.aims.ac.za/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./topics/</loc>
+    <loc>https://datasciencegroup.aims.ac.za/topics/</loc>
     <priority>0</priority>
   </url>
   
