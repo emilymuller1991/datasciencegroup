@@ -1,11 +1,12 @@
 +++
 [menu]
-     [menu.main]
+        [menu.main]
         name = "Events"
         weight = 3
-        identifier = "events"
+	type = "good"
+        identifier = "Events"
 date = "2017-01-24T16:33:27+03:00"
-title = "Contact"
+title = "Events"
 sharingicons = false
 menu = "navbar"
 +++

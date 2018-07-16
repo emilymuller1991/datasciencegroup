@@ -2,13 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science Group (DSG)</title>
-    <link>http://example.org/</link>
+    <link>./</link>
     <description>Recent content on Data Science Group (DSG)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>./about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>./about/</guid>
+      <description>Dr Bubacarr Bah Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content.Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content.Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content. Go somewhere --   Rakgwahla Jessica Phalafala Some quick example text to build on the card title and make up the bulk of the card&amp;rsquo;s content.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>./contact/</guid>
+      <description>Алън живее и работи в Кения в продължение на осем години, първо като доброволец учител по компютърни науки в селско училище, а по-късно като Linux системен администратор в институт за селскостопански животни в Найроби. По време на престоя си в Кения той пътува из Източна Африка и пише блог за преживяванията си. Негобата страст е софтуерът с отворен код, информационната сигурност, както и свободата на информация — естествено, той пише блог и за това.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>./events/</guid>
+      <description>Алън живее и работи в Кения в продължение на осем години, първо като доброволец учител по компютърни науки в селско училище, а по-късно като Linux системен администратор в институт за селскостопански животни в Найроби. По време на престоя си в Кения той пътува из Източна Африка и пише блог за преживяванията си. Негобата страст е софтуерът с отворен код, информационната сигурност, както и свободата на информация — естествено, той пише блог и за това.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>./post/</guid>
+      <description>@import url(https://fonts.googleapis.com/css?family=Merriweather); .card { font-family: &#39;Merriweather&#39;, serif; } .card .title { margin-bottom:5px; } .card .action { color: #fa4b2a; }  -- Susan Miller has informed me that I may be trying my hand at Artificial Intelligence.Susan Miller has informed me that I may be trying my hand at Artificial Intelligence. I&#39;ve think that specialisation is a long road and in the meantime, hopping through bodies of knowledge is proving to be fun!</description>
+    </item>
     
   </channel>
 </rss>

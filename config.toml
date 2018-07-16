@@ -1,7 +1,6 @@
 languageCode = "en-us"
 title = "Data Science Group (DSG)"
-publishDir = "docs"
-baseurl = "https://emilymuller1991.github.io/datasciencegroup"
+baseurl = "https://datasciencegroup.aims.ac.za"
 theme = "hugo-bootstrap-premium"
 
 
@@ -83,6 +82,18 @@ mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
   name = "English Bulgaria"
   url = "https://englishbulgaria.net"
 
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "AIMS"
+    pre = "<img src='/img/aims_logo.png' style='height: 30px; width: 150px;' alt='test menu image'>"
+    name = ""
+    title = "AIMS"
+    url = "https://aims.ac.za/"
+    weight = 0
+
 # Select a syntax highlight.
 # Check the static/css/highlight directory for options.
 highlight = "default"
@@ -113,6 +124,9 @@ extensionmask = []
 # If you want active menu items highlighted for internal pages don't add them here, they need to be added in each files front matter.
 # like this:
 #[menu]
+
+
+
 #     [menu.main]
 #        name = "Showcase"
 #        weight = 3

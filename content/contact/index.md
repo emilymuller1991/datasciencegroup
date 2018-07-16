@@ -1,9 +1,10 @@
 +++
 [menu]
-     [menu.main]
+        [menu.main]
         name = "Contact"
-        weight = 5
-        identifier = "contact"
+        weight = 4
+	type = "good"
+        identifier = "Contact"
 date = "2017-01-24T16:33:27+03:00"
 title = "Contact"
 sharingicons = false
